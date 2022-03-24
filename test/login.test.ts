@@ -1,5 +1,5 @@
 import { webkit } from "playwright"
-import LoginPage from "./windowHandling/pages/Login.page";
+import LoginPage from "./pages/Login.page";
 
 
 declare const reporter:any
