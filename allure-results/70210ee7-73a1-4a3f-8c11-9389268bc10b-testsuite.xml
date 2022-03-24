@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648161515877' stop='1648161518729'>
+    <name>Login Let code</name>
+    <title>Login Let code</title>
+    <test-cases>
+        <test-case start='1648161515877' status='pending' stop='1648161515877'>
+            <name>Login letcode</name>
+            <title>Login letcode</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648161515877' status='passed' stop='1648161518729'>
+            <name>Login letcode by using pageobject </name>
+            <title>Login letcode by using pageobject </title>
+            <labels>
+                <label name='story' value='BOND-007'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1648161518585' status='passed' stop='1648161518637'>
+                    <name>type username</name>
+                    <title>type username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648161518637' status='passed' stop='1648161518653'>
+                    <name>type user passwrod</name>
+                    <title>type user passwrod</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648161518653' status='passed' stop='1648161518729'>
+                    <name>click login button</name>
+                    <title>click login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Login should work cool</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
